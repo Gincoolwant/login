@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(221, 221, 221);
+}
+
+.contain {
+  max-width: 500px;
+  text-align: center;
+}
