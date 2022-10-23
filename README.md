@@ -5,15 +5,17 @@
 ![首頁](./public/images/index.png)
 
 使用者帳號與密碼驗證
-驗證失敗
+
+驗證失敗畫面
 ![驗證失敗畫面](./public/images/access_denied.png)
 
-驗證成功
+驗證成功畫面
 ![驗證成功畫面](./public/images/access.png)
 
 ## 功能詳情
-+ 登入功能
-+ 驗證使用者帳號與密碼
++ 點選Sign in登入。
++ 點選Cancel清空表單。
++ 驗證使用者帳號與密碼。
   + 驗證成功顯示Welcome page。
   + 驗證錯誤顯示失敗提示。
 
