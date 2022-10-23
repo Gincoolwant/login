@@ -1,27 +1,27 @@
 # Login Practice
 使用Express做出簡易版登入功能
 
-首頁
-![首頁](./public/images/index.png)
++ 首頁
+  ![首頁](./public/images/index.png)
 
-使用者帳號與密碼驗證
++ 使用者帳號與密碼驗證
+  + 驗證失敗畫面
+    ![驗證失敗畫面](./public/images/access_denied.png)
 
-驗證失敗畫面
-![驗證失敗畫面](./public/images/access_denied.png)
-
-驗證成功畫面
-![驗證成功畫面](./public/images/access.png)
+  + 驗證成功畫面
+    ![驗證成功畫面](./public/images/access.png)
 
 ## 功能詳情
 + 點選Sign in登入。
 + 點選Cancel清空表單。
-+ 驗證使用者帳號與密碼。
++ 點選Sign in後驗證使用者帳號與密碼。
   + 驗證成功顯示Welcome page。
   + 驗證錯誤顯示失敗提示。
-  + test account
+  + Test account
+    ```
     Account: tony@stark.com
     Password: iamironman
-
+    ```
 
 ## 安裝執行
 1. 確認安裝node.js & npm。
