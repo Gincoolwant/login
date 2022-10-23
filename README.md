@@ -21,6 +21,9 @@
     ```
     Account: tony@stark.com
     Password: iamironman
+
+    Account: nick@shield.com
+    Password: password
     ```
 
 ## 安裝執行
