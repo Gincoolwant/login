@@ -12,3 +12,11 @@ body {
   max-width: 500px;
   text-align: center;
 }
+
+#access-denied {
+  margin-top: 20px;
+  color: red;
+  font-size: 0.8em;
+  font-weight: bolder;
+  text-align: start;
+}

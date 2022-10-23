@@ -1,7 +1,5 @@
 const User = require('../users.js')
-const mongoose = require('mongoose')
-mongoose.connect(process.env.MONGODB_URI_LOGIN)
-const db = mongoose.connection
+const mongoose = require('./config/mongoose.js')
 const users = [
   {
     firstName: 'Tony',
@@ -29,11 +27,6 @@ const users = [
     password: 'password'
   }
 ]
-
-
-db.on('error', () => {
-  console.error(error)
-})
 
 db.once('open', () => {
   users.forEach(user => {
