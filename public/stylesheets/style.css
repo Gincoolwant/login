@@ -29,3 +29,10 @@ body {
 .backBtn {
   margin: auto
 }
+
+#cookie {
+  text-align: start;
+  color: rgb(31, 109, 255);
+  font-weight: bolder;
+  font-size: 1.2em;
+}

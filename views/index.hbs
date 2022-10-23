@@ -1,4 +1,9 @@
 <div class="contain mx-auto mt-5 shadow p-5 mb-5 bg-body bg-light rounded">
+    {{#if name}}
+    <div class="p-1 mb-3" id="cookie">
+      Yo my man! {{name}}~
+    </div>
+    {{/if}}
   <h2>Account Login</h2>
   <form action="/login" method="post">
     <div class="form-floating mt-4 mb-3">
