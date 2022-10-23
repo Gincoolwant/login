@@ -18,6 +18,9 @@
 + 驗證使用者帳號與密碼。
   + 驗證成功顯示Welcome page。
   + 驗證錯誤顯示失敗提示。
+  + test account
+    Account: tony@stark.com
+    Password: iamironman
 
 
 ## 安裝執行
