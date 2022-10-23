@@ -1,4 +1,3 @@
-const User = require('../models/users')
 const mongoose = require('mongoose')
 mongoose.connect(process.env.MONGODB_URI_LOGIN)
 const db = mongoose.connection
